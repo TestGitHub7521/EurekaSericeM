@@ -1,0 +1,9 @@
+applications:
+- name: eurekaclient
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  routes:
+  - route: eurekaclient-sample.cfapps.io
+  stack: cflinuxfs2
+  path: /target/eurekaclient-0.0.1-SNAPSHOT.jar
